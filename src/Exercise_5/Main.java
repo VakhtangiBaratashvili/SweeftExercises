@@ -21,7 +21,6 @@ public class Main {
         for (int i = 3; i <= stairsCount; i++) {
             fibArr[i] = fibArr[i - 1] + fibArr[i - 2];
         }
-
         return fibArr[stairsCount];
     }
 }

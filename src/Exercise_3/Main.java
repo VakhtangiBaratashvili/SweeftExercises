@@ -12,6 +12,7 @@ public class Main {
             System.out.print("Enter the number: ");
             nums[i] = scanner.nextInt();
         }
+        System.out.println(notContains(nums));
     }
 
     public static int notContains(int[] array) {

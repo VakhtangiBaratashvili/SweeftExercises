@@ -9,4 +9,3 @@ public class Main {
         set.remove(20);
     }
 }
-
